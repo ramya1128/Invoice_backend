@@ -16,7 +16,7 @@ const SECRET_KEY = process.env.SECRET_KEY || "ramya1128";
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://invoice-frontend-ashen.vercel.app/",
     credentials: true,
   })
 );
